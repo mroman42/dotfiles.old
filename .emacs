@@ -64,3 +64,16 @@
                ("\\section\{%s\}" . "\\section*\{%s\}")
                ("\\subsection\{%s\}" . "\\subsection*\{%s\}")
                ("\\subsubsection\{%s\}" . "\\subsubsection*\{%s\}")))
+
+
+;; Dict-replace
+(load-file "~/.emacs.d/dict-replace.el")
+(global-set-key (kbd "<f5>") 'dict-translate)
+
+
+;; HAML mode
+(require 'haml-mode)
+(add-hook 'haml-mode-hook
+	  (lambda ()
+	    (setq indent-tabs-mode nil)
+	    (define-key haml-mode-map "\C-m" 'newline-and-indent)))
