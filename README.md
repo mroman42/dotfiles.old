@@ -1,2 +1,2 @@
 # .emacs
-My emacs settings
+My emacs (& ghci!) settings
