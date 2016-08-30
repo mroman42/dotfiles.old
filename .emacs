@@ -156,3 +156,8 @@
   '(add-to-list 'preview-default-preamble "\\PreviewEnvironment{tikzpicture}" t))
 
 (setq org-latex-create-formula-image-program 'imagemagick)
+
+;; Flymake
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode))
