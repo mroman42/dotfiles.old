@@ -1,2 +1,2 @@
-# .emacs
-My emacs (& ghci!) settings
+# dotfiles
+My bash (& ghci!) settings
