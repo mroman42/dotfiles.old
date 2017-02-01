@@ -20,6 +20,9 @@ alias suexplore='sudo nautilus .'
 alias t='task'
 alias ts='task sync && task'
 alias tomorrow='task add wait:tomorrow'
+## Weather
+alias weather='curl http://wttr.in/granada'
+alias moon='curl http://wttr.in/moon'
 
 # Environment variables
 PS1='[\u@\h \W]\$ '
