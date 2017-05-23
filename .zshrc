@@ -89,6 +89,9 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+source ~/.profile
+
 
 # zsh alias
 alias weather='curl http://wttr.in/granada'
+alias em='emacsclient -tty'
